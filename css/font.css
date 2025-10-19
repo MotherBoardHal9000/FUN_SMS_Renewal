@@ -1,0 +1,102 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: "Wanted Sans Variable";
+    font-style: normal;
+    font-display: swap;
+    font-weight: 100 1000;
+    src: url("./woff2/WantedSansVariable.woff2") format("woff2-variations");
+}
+
+
+@font-face {
+   font-family: "Wanted Sans Variable";
+   src: url(../font/WantedSansVariable.ttf) format('ttf');
+   src: url(../font/WantedSansVariable.woff2) format('woff2');
+   font-weight: 100;
+   font-style: normal;
+   font-display: swap;
+}
+@font-face {
+   font-family: "Wanted Sans Variable";
+   src: url(../font/WantedSansVariable.ttf) format('ttf');
+   src: url(../font/WantedSansVariable.woff2) format('woff2');
+   font-weight: 200;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "Wanted Sans Variable";
+   src: url(../font/WantedSansVariable.ttf) format('ttf');
+   src: url(../font/WantedSansVariable.woff2) format('woff2');
+   font-weight: 300;
+   font-style: normal;
+   font-display: swap;
+}
+
+
+@font-face {
+   font-family: "Wanted Sans Variable";
+   src: url(../font/WantedSansVariable.ttf) format('ttf');
+   src: url(../font/WantedSansVariable.woff2) format('woff2');
+   font-weight: 400;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "Wanted Sans Variable";
+   src: url(../font/WantedSansVariable.ttf) format('ttf');
+   src: url(../font/WantedSansVariable.woff2) format('woff2');
+   font-weight: 500;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "Wanted Sans Variable";
+   src: url(../font/WantedSansVariable.ttf) format('ttf');
+   src: url(../font/WantedSansVariable.woff2) format('woff2');
+   font-weight: 600;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "Wanted Sans Variable";
+   src: url(../font/WantedSansVariable.ttf) format('ttf');
+   src: url(../font/WantedSansVariable.woff2) format('woff2');
+   font-weight: 700;
+   font-style: normal;
+   font-display: swap;
+}
+
+
+@font-face {
+   font-family: "Wanted Sans Variable";
+   src: url(../font/WantedSansVariable.ttf) format('ttf');
+   src: url(../font/WantedSansVariable.woff2) format('woff2');
+   font-weight: 800;
+   font-style: normal;
+   font-display: swap;
+}
+
+
+@font-face {
+   font-family: "Wanted Sans Variable";
+   src: url(../font/WantedSansVariable.ttf) format('ttf');
+   src: url(../font/WantedSansVariable.woff2) format('woff2');
+   font-weight: 900;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "Wanted Sans Variable";
+   src: url(../font/WantedSansVariable.ttf) format('ttf');
+   src: url(../font/WantedSansVariable.woff2) format('woff2');
+   font-weight: 1000;
+   font-style: normal;
+   font-display: swap;
+}
