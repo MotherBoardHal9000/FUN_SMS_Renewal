@@ -198,8 +198,30 @@ body {
    position: absolute;
    right: 130px; 
    top: -100px;
+   background: transparent;
  
       }
+
+.swiper-wrapper #slide01 h2{
+   font-size: 3rem;
+   font-weight: 500;
+   background-color: transparent;
+   z-index: 10;
+   position: absolute;
+   bottom: 120px;
+   left: 55px;
+}
+
+.swiper-wrapper #slide01 span{
+   font-size: 1rem;
+   font-weight: 300;
+   text-align: left;
+   background-color: transparent;
+   position: absolute;
+   left: 55px;
+   bottom: 48px;
+}
+
 
 
 .swiper-wrapper #slide02 h2{
