@@ -272,3 +272,44 @@ body {
    bottom: 203px;
    background: transparent;
 }
+
+
+.swiper-wrapper #slide03 h2{
+   font-size: 3rem;
+   font-weight: 500;
+   background-color: transparent;
+   z-index: 10;
+   position: absolute;
+   bottom: 120px;
+   left: 55px;
+}
+
+.swiper-wrapper #slide03 span{
+   font-size: 1rem;
+   font-weight: 300;
+   text-align: left;
+   background-color: transparent;
+   position: absolute;
+   left: 55px;
+   bottom: 48px;
+}
+
+
+/*로그인 영역*/
+
+.section01aside{
+   width: 465px;
+   aspect-ratio: 1.24/1;
+   background-color: #36BCF8;
+   border-radius: 21px;
+   position: absolute;
+   right: 4px;
+   margin-top: 24px;
+}
+
+.section01aside #decoration{
+   position: absolute;
+   right: 0px;
+   bottom: -54px;
+   z-index: 15;
+}
