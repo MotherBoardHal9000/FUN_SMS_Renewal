@@ -438,3 +438,38 @@ body {
    font-size: 1.1rem;
    font-weight: 500;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+/*section02*/
+.section02{
+   width: 100%;
+  height: fit-content;
+  background-color: #FBFBFB;
+}
+
+#deco02{
+   position: absolute;
+   left: 0px;
+   top: -84px;
+   z-index: 15;
+}
+
+
+.section02Contents{
+   width: 1540px;
+   aspect-ratio: 1.41284403669724/1;
+   margin: 0 auto;
+   position: relative;
+   border-left: 1px solid red;
+   border-right: 1px solid red;
+}
