@@ -42,14 +42,14 @@ body {
 #header{
     top: 0;
     left: 0;
-    background: linear-gradient(
-    135deg,
-    rgba(255, 255, 255, 0.1),
+     background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.5),
     rgba(255, 255, 255, 0)
     );
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.18);
+    border: 3px solid rgba(255, 255, 255, 0.18);
     width: 100%;
     height: fit-content;
     z-index: 999;
@@ -154,7 +154,7 @@ body {
 
 .container {
   width: 1050px;
-   aspect-ratio: 2.354260089686099/1;
+   aspect-ratio: 2.253218884120172/1;
   position: absolute;
   left: 0%;
   transform: translateX(-0%);
@@ -164,7 +164,7 @@ body {
 
 .swiper {
       width: 1050px;
-      aspect-ratio: 2.354260089686099/1;
+      aspect-ratio: 2.253218884120172/1;
       border-radius: 21px;
       position: absolute;
       left: 0px;
@@ -231,8 +231,6 @@ body {
 }
 
 
-
-
 .swiper-wrapper #slide01 h2{
    font-size: 3rem;
    font-weight: 500;
@@ -254,7 +252,7 @@ body {
    z-index: 10;
 }
 
-
+/*slide02*/
 
 .swiper-wrapper #slide02 h2{
    font-size: 3rem;
@@ -294,7 +292,7 @@ body {
    background: transparent;
 }
 
-
+/*slide03*/
 
 .swiper-wrapper #slide03 img{
    width: 316px;
@@ -327,6 +325,42 @@ body {
 }
 
 
+
+.slide_Under_Menu{
+   width: 1050px;
+   aspect-ratio: 7.835820895522388/1;
+    background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.5),
+    rgba(255, 255, 255, 0)
+    );
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 3px solid rgba(255, 255, 255, 0.18);
+    position: absolute;
+    left: 0px;
+    bottom: 158px;
+    border-radius: 24px;
+}
+
+.slide_Under_Menu02{
+   width: 464px;
+   aspect-ratio: 2.048458149779736/1;
+    background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.5),
+    rgba(255, 255, 255, 0)
+    );
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 3px solid rgba(255, 255, 255, 0.18);
+    position: absolute;
+    right: 3px;
+    bottom: 158px;
+    border-radius: 24px;
+}
+
+
 /*로그인 영역*/
 
 .section01aside{
@@ -345,3 +379,20 @@ body {
    bottom: -54px;
    z-index: 15;
 }
+
+.section01aside #loginIcon{
+   width: 36px;
+   height: 32px;
+   position: absolute;
+   top: 38px;
+   left: 40px;
+}
+
+
+
+
+
+
+
+
+
