@@ -124,7 +124,7 @@ body {
    width: 100%;
    padding: 2px;
    color: #333333;
-   font-weight: 200;
+   font-weight: 500;
    font-size: 0.9rem;
    text-align: center;
    transition: all 0.5s;
@@ -393,33 +393,33 @@ body {
 }
 
 .section01aside #loginIcon{
-   width: 36px;
-   height: 32px;
+   width: 32px;
+   height: 28px;
    position: absolute;
    top: 48px;
-   left: 40px;
+   left: 48px;
 }
 
 
 .section01aside #pwIcon{
-   width: 36px;
-   height: 32px;
+   width: 32px;
+   height: 28px;
    position: absolute;
-   top: 106px;
-   left: 40px;
+   top: 102px;
+   left: 48px;
 }
 
 
 .IDPW {
-  width: 316px;
-  height: 46px;
-  margin: 0 0 16px 0px;
+  width: 312px;
+  height: 40px;
+  margin: 0 0 14px 0px;
   border: 1px solid rgb(222, 222, 222);
   border-radius: 3px;
   background-color: #ffffff;
   position: relative;
   left: 104px;
-  top: 38px;
+  top: 42px;
   border-radius: 8px;
 }
 
@@ -430,7 +430,7 @@ body {
    width: 384px;
    height: 56px;
    background-color: #3D4864;
-   border-radius: 8px;
+   border-radius: 13px;
    color: #ffffff;
    position: absolute;
    bottom: 55px;
