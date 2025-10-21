@@ -192,7 +192,7 @@ body {
 .swiper-wrapper :nth-child(3){background-color: #4FE9B8;}
 
 
-
+/*위의 1,2,3, 선택자로 인하여 이미지는 nth child 4번부터 적용됨*/
 .swiper-wrapper #slide01 img{width: 358px; 
    aspect-ratio: 1/1;
    position: absolute;
@@ -201,6 +201,37 @@ body {
    background: transparent;
  
       }
+
+.swiper-wrapper #slide01 img:nth-child(4){
+   width: 358px; 
+   aspect-ratio: 1/1;
+   position: absolute;
+   right: 370px; 
+   top: 20px;
+   background: transparent;
+}
+
+
+.swiper-wrapper #slide01 img:nth-child(5){
+   width: 240px;
+   aspect-ratio: 1/1;
+   position: absolute;
+   left: 550px;
+   top: 190px;
+   background: transparent;
+}
+
+.swiper-wrapper #slide01 img:nth-child(6){
+   width: 258px; 
+   aspect-ratio: 1/1;
+   position: absolute;
+   left: 70px; 
+   top: 30px;
+   background: transparent;
+}
+
+
+
 
 .swiper-wrapper #slide01 h2{
    font-size: 3rem;
@@ -220,6 +251,7 @@ body {
    position: absolute;
    left: 55px;
    bottom: 48px;
+   z-index: 10;
 }
 
 
