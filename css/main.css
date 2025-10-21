@@ -384,15 +384,45 @@ body {
    width: 36px;
    height: 32px;
    position: absolute;
-   top: 38px;
+   top: 48px;
    left: 40px;
+}
+
+
+.section01aside #pwIcon{
+   width: 36px;
+   height: 32px;
+   position: absolute;
+   top: 106px;
+   left: 40px;
+}
+
+
+.IDPW {
+  width: 316px;
+  height: 46px;
+  margin: 0 0 16px 0px;
+  border: 1px solid rgb(222, 222, 222);
+  border-radius: 3px;
+  background-color: #ffffff;
+  position: relative;
+  left: 104px;
+  top: 38px;
+  border-radius: 8px;
 }
 
 
 
 
-
-
-
-
-
+.section01aside #로그인버튼{
+   width: 384px;
+   height: 56px;
+   background-color: #3D4864;
+   border-radius: 8px;
+   color: #ffffff;
+   position: absolute;
+   bottom: 55px;
+   left: 34px;
+   font-size: 1.1rem;
+   font-weight: 500;
+}
