@@ -347,8 +347,8 @@ body {
 }
 
 .slide_Under_Menu img{
-   width: 46px;
-   height: 46px;
+   width: 36px;
+   height: 36px;
   
 }
 
@@ -433,7 +433,7 @@ body {
    border-radius: 13px;
    color: #ffffff;
    position: absolute;
-   bottom: 55px;
+   bottom: 86px;
    left: 34px;
    font-size: 1.1rem;
    font-weight: 500;
@@ -442,11 +442,33 @@ body {
 
 
 
+.section01aside .returnArea{
+   width: 380px;
+   height: 72px;
+   position: absolute;
+   bottom: 148px;
+   left: 34px;
+    font-size: 1rem;
+   font-weight: 300;
+}
 
+.section01aside .returnArea input{
+   width: 196px;
+   height: 36px;
+   border-radius: 8px;
+   background-color: #ffffff;
+   position: absolute;
+   right: 0px;
+   margin-top: 5px;
+}
 
-
-
-
+.section01aside .returnArea #returnBtn{
+   width: 28px; 
+   height: 28px;
+   position: absolute;
+   right: 204px;
+   margin-top: 10px;
+}
 
 
 
