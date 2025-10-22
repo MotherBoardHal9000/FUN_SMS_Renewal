@@ -534,10 +534,22 @@ body {
 }
 
 .section02Contents .freePhotoCard img{
-   width: 486px;
+   width: 586px;
    aspect-ratio: 1/1;
    position: absolute;
-   top: -26px;
+   top: -56px;
    left: 55%;
    transform: translateX(-55%);
+   z-index: 10;
+}
+
+.section02Contents .freePhotoCard img + img{
+   width: 480px;
+   aspect-ratio: 1/1;
+   position: absolute;
+   top: 215px;
+   left: 35%;
+   transform: translateX(-35%);
+   rotate: 35deg;
+   z-index: 0;
 }
