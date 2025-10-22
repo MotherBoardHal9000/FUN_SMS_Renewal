@@ -514,9 +514,29 @@ body {
    width: 1540px;
    aspect-ratio: 6.470588235294118/1;
    border-bottom: 1px solid #333333;
-   padding-top: 116px;
+   padding-top: 230px;
 
 }
 .section02Contents .freePhotoCard h2{
    font-weight: 500;
+   position: absolute;
+   top: 50px;
+}
+
+.section02Contents .freePhotoCard h2 ~ h2{
+   font-size: 64px;
+   position: absolute;
+   right: 0px;
+   text-align: right;
+   letter-spacing: -2.5%;
+   line-height: 110%;
+}
+
+.section02Contents .freePhotoCard img{
+   width: 486px;
+   aspect-ratio: 1/1;
+   position: absolute;
+   top: -110px;
+   left: 55%;
+   transform: translateX(-55%);
 }
