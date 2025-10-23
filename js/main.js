@@ -30,10 +30,12 @@ document.getElementById('로그인버튼').addEventListener('click',function(){
 
 
 //section02Carousel
-
+let myAnimation = window.requestAnimationFrame(onAnimate);
 let nowPicture = 1;
 
-document.getElementById('img_Right').addEventListener("click", function () {
+
+
+  document.getElementById('img_Right').addEventListener("click", function () {
   if (nowPicture == 1) {
     document.querySelector(".section02ContentsCarousell-swiper-wrapper").style.transform = "translateX(-374px)";
     nowPicture += 1;
@@ -55,3 +57,13 @@ document.getElementById('img_Left').addEventListener("click", function () {
     nowPicture = nowPicture -= 1;
   }
 });
+
+
+window.addEventListener("click",onAnimate);
+
+ function onAnimate() {
+        myAnimation = window.requestAnimationFrame(onAnimate);
+        
+      }
+
+  

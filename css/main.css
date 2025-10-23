@@ -632,5 +632,19 @@ body {
    z-index: 16;
    display: flex;
    justify-content: space-between;
+   background: transparent;
 }
 
+.slideBtn button{
+   width: 40px;
+   height: 40px;
+     background: linear-gradient(
+    180deg,
+    rgba(112, 112, 112, 0.1),
+    rgba(255, 255, 255, 0.0)
+    );
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 3px solid rgba(255, 255, 255, 0.18);
+    border-radius: 25px;
+}
