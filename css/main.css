@@ -534,7 +534,7 @@ body {
 }
 
 .section02Contents .freePhotoCard img{
-   width: 586px;
+   width: 566px;
    aspect-ratio: 1/1;
    position: absolute;
    top: -56px;
@@ -553,3 +553,84 @@ body {
    rotate: 35deg;
    z-index: 0;
 }
+
+.section02Contents .freePhotoCard button {
+   width: 244px;
+   height: 58px;
+   background-color: #36BCF8;
+   color: #ffffff;
+   border-radius: 50px;
+   position: absolute;
+   left: 0px;
+   top: 484px;
+   cursor: pointer;
+}
+
+.section02Contents .freePhotoCard button a{ color: #ffffff;}
+
+.section02Contents .freePhotoCard span{
+   font-size: 1rem;
+   font-weight: 300;
+   text-align: right;
+   position: absolute;
+   right: 0px;
+   top: 484px;
+   color: #333333;
+}
+/*section02Carousell*/
+
+.section02ContentsCarousellContainer{
+   width: 1540px;
+   aspect-ratio: 3.208333333333333/1;
+   position: absolute;
+   bottom: 0px;    
+   transition: all 1s;
+   border-radius: 21px;
+   overflow-x: hidden;
+}
+
+
+
+
+
+.section02ContentsCarousell-swiper-mySwiper{
+   width: 1540px;
+   aspect-ratio: 3.208333333333333/1;
+   border-radius: 13;
+   border-radius: 21px;
+   position: absolute;
+   bottom: 0px;
+}
+
+.section02ContentsCarousell-swiper-wrapper{
+   width: 1540px;
+   aspect-ratio: 3.208333333333333/1;
+   border-radius: 13;
+   display: flex;    
+   justify-content: space-between;
+   transition: all 1s;
+   border-radius: 21px;
+   position: absolute;
+   bottom: 0px;}
+
+.section02ContentsCarousell-swiper-slide{
+   width: 370px;
+   aspect-ratio: 0.774058577405857/1;
+   border-radius: 13px;
+   background-color: #E9E9E9;
+   margin-right: 24px;
+   transition: all 0.9s;
+}
+
+.slideBtn{
+   width: 80px;
+   aspect-ratio: 2.0370/1;
+   position: absolute;
+   top: 850px;
+   left: -2.5%;
+   transform: translateX(-2.5%);
+   z-index: 16;
+   display: flex;
+   justify-content: space-between;
+}
+

@@ -1,6 +1,6 @@
 //
  //메인 스와이퍼 라이브러리 캐러샐 
- var swiper = new Swiper(".mySwiper", {
+ const swiper = new Swiper(".mySwiper", {
       spaceBetween: 24,
       centeredSlides: true,
       autoplay: {
@@ -29,3 +29,29 @@ document.getElementById('로그인버튼').addEventListener('click',function(){
 });
 
 
+//section02Carousel
+
+let nowPicture = 1;
+
+document.getElementById('img_Right').addEventListener("click", function () {
+  if (nowPicture == 1) {
+    document.querySelector(".section02ContentsCarousell-swiper-wrapper").style.transform = "translateX(-374px)";
+    nowPicture += 1;
+  } else if (nowPicture == 2) {
+    document.querySelector(".section02ContentsCarousell-swiper-wrapper").style.transform = "translateX(-748px)";
+    nowPicture += 1;
+  }
+  else if (nowPicture == 3) {
+    document.querySelector(".section02ContentsCarousell-swiper-wrapper").style.transform = "translateX(-1112px)";
+    nowPicture += 1;
+  }
+});
+document.getElementById('img_Left').addEventListener("click", function () {
+  if (nowPicture == 4) {
+    document.querySelector(".section02ContentsCarousell-swiper-wrapper").style.transform = "translateX(-374px)";
+    nowPicture -= 1;
+  } else if (nowPicture == 3) {
+    document.querySelector(".section02ContentsCarousell-swiper-wrapper").style.transform = "translateX(0px)";
+    nowPicture = nowPicture -= 1;
+  }
+});
