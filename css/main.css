@@ -648,3 +648,297 @@ body {
     border: 3px solid rgba(255, 255, 255, 0.18);
     border-radius: 25px;
 }
+
+/*section03*/
+
+.section03{
+   width: 100%;
+  height: fit-content;
+  background-color: #FBFBFB;
+}
+
+
+.section03Contents{
+   width: 1540px;
+   aspect-ratio: 1.41284403669724/1;
+   margin: 0 auto;
+   position: relative;
+   
+}
+
+.section03Contents .freePhotoCard{
+   width: 1540px;
+   aspect-ratio: 6.470588235294118/1;
+   border-bottom: 1px solid #333333;
+   padding-top: 430px;
+
+}
+.section03Contents .freePhotoCard h2{
+   font-weight: 500;
+   position: absolute;
+   top: 116px;
+}
+
+.section03Contents .freePhotoCard h2 ~ h2{
+   font-size: 64px;
+   position: absolute;
+   top: 116px;
+   right: 0px;
+   text-align: right;
+   letter-spacing: -2.5%;
+   line-height: 110%;
+}
+
+.section03Contents .freePhotoCard img{
+   width: 438px;
+   aspect-ratio: 0.6676829268292683/1;
+   position: absolute;
+   top: -56px;
+   left: 50%;
+   transform: translateX(-50%);
+   z-index: 10;
+}
+
+
+
+.section03Contents .freePhotoCard button {
+   width: 244px;
+   height: 58px;
+   background-color: #36BCF8;
+   color: #ffffff;
+   border-radius: 50px;
+   position: absolute;
+   left: 0px;
+   top: 484px;
+   cursor: pointer;
+}
+
+.section03Contents .freePhotoCard button a{ color: #ffffff;}
+
+.section03Contents .freePhotoCard span{
+   font-size: 1rem;
+   font-weight: 300;
+   text-align: right;
+   position: absolute;
+   right: 0px;
+   top: 484px;
+   color: #333333;
+}
+/*section03Carousell*/
+
+.section03ContentsCarousellContainer{
+   width: 1540px;
+   aspect-ratio: 3.208333333333333/1;
+   position: absolute;
+   bottom: 0px;    
+   transition: all 1s;
+   border-radius: 21px;
+   overflow-x: hidden;
+}
+
+
+
+
+
+.section03ContentsCarousell-swiper-mySwiper{
+   width: 1540px;
+   aspect-ratio: 3.208333333333333/1;
+   border-radius: 13;
+   border-radius: 21px;
+   position: absolute;
+   bottom: 0px;
+}
+
+.section03ContentsCarousell-swiper-wrapper{
+   width: 1540px;
+   aspect-ratio: 3.208333333333333/1;
+   border-radius: 13;
+   display: flex;    
+   justify-content: space-between;
+   transition: all 1s;
+   border-radius: 21px;
+   position: absolute;
+   bottom: 0px;}
+
+.section03ContentsCarousell-swiper-slide{
+   width: 370px;
+   aspect-ratio: 0.774058577405857/1;
+   border-radius: 13px;
+   background-color: #E9E9E9;
+   margin-right: 24px;
+   transition: all 0.9s;
+}
+
+.slideBtn02{
+   width: 80px;
+   aspect-ratio: 2.0370/1;
+   position: absolute;
+   top: 850px;
+   left: -2.5%;
+   transform: translateX(-2.5%);
+   z-index: 16;
+   display: flex;
+   justify-content: space-between;
+   background: transparent;
+}
+
+.slideBtn02 button{
+   width: 40px;
+   height: 40px;
+     background: linear-gradient(
+    180deg,
+    rgba(112, 112, 112, 0.1),
+    rgba(255, 255, 255, 0.0)
+    );
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 3px solid rgba(255, 255, 255, 0.18);
+    border-radius: 25px;
+}
+
+/*section04*/
+
+.section04{
+   width: 100%;
+  height: fit-content;
+  background-color: #FBFBFB;
+}
+
+
+.section04Contents{
+   width: 1540px;
+   aspect-ratio: 1.41284403669724/1;
+   margin: 0 auto;
+   position: relative;
+   
+}
+
+.section04Contents .freePhotoCard{
+   width: 1540px;
+   aspect-ratio: 6.470588235294118/1;
+   border-bottom: 1px solid #333333;
+   padding-top: 430px;
+
+}
+.section04Contents .freePhotoCard h2{
+   font-weight: 500;
+   position: absolute;
+   top: 116px;
+}
+
+.section04Contents .freePhotoCard h2 ~ h2{
+   font-size: 64px;
+   position: absolute;
+   top: 116px;
+   right: 0px;
+   text-align: right;
+   letter-spacing: -2.5%;
+   line-height: 110%;
+}
+
+.section04Contents .freePhotoCard img{
+   width: 324px;
+   aspect-ratio: 0.6666666666666667/1;
+   position: absolute;
+   top: -16px;
+   left: 55%;
+   transform: translateX(-55%);
+   z-index: 10;
+}
+
+
+
+.section04Contents .freePhotoCard button {
+   width: 244px;
+   height: 58px;
+   background-color: #36BCF8;
+   color: #ffffff;
+   border-radius: 50px;
+   position: absolute;
+   left: 0px;
+   top: 484px;
+   cursor: pointer;
+}
+
+.section04Contents .freePhotoCard button a{ color: #ffffff;}
+
+.section04Contents .freePhotoCard span{
+   font-size: 1rem;
+   font-weight: 300;
+   text-align: right;
+   position: absolute;
+   right: 0px;
+   top: 484px;
+   color: #333333;
+}
+/*section03Carousell*/
+
+.section04ContentsCarousellContainer{
+   width: 1540px;
+   aspect-ratio: 3.208333333333333/1;
+   position: absolute;
+   bottom: 0px;    
+   transition: all 1s;
+   border-radius: 21px;
+   overflow-x: hidden;
+}
+
+
+
+
+
+.section04ContentsCarousell-swiper-mySwiper{
+   width: 1540px;
+   aspect-ratio: 3.208333333333333/1;
+   border-radius: 13;
+   border-radius: 21px;
+   position: absolute;
+   bottom: 0px;
+}
+
+.section04ContentsCarousell-swiper-wrapper{
+   width: 1540px;
+   aspect-ratio: 3.208333333333333/1;
+   border-radius: 13;
+   display: flex;    
+   justify-content: space-between;
+   transition: all 1s;
+   border-radius: 21px;
+   position: absolute;
+   bottom: 0px;}
+
+.section04ContentsCarousell-swiper-slide{
+   width: 370px;
+   aspect-ratio: 0.774058577405857/1;
+   border-radius: 13px;
+   background-color: #E9E9E9;
+   margin-right: 24px;
+   transition: all 0.9s;
+}
+
+.slideBtn03{
+   width: 80px;
+   aspect-ratio: 2.0370/1;
+   position: absolute;
+   top: 850px;
+   left: -2.5%;
+   transform: translateX(-2.5%);
+   z-index: 16;
+   display: flex;
+   justify-content: space-between;
+   background: transparent;
+}
+
+.slideBtn03 button{
+   width: 40px;
+   height: 40px;
+     background: linear-gradient(
+    180deg,
+    rgba(112, 112, 112, 0.1),
+    rgba(255, 255, 255, 0.0)
+    );
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 3px solid rgba(255, 255, 255, 0.18);
+    border-radius: 25px;
+}
