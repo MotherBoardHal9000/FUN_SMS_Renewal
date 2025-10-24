@@ -802,6 +802,7 @@ body {
    width: 100%;
   height: fit-content;
   background-color: #FBFBFB;
+   padding-bottom: 160px;
 }
 
 
@@ -810,6 +811,7 @@ body {
    aspect-ratio: 1.41284403669724/1;
    margin: 0 auto;
    position: relative;
+   padding-bottom: 160px;
    
 }
 
@@ -941,4 +943,68 @@ body {
     -webkit-backdrop-filter: blur(10px);
     border: 3px solid rgba(255, 255, 255, 0.18);
     border-radius: 25px;
+}
+
+/*section05*/
+.section05{
+   width: 100%;
+   height: 1474px;
+   background-color: #C7D9EE;
+}
+
+.section05Contents{
+   width: 1540px;
+  aspect-ratio: 1.044776119402985/1;
+  margin: 0 auto;
+  position: relative;
+}
+
+
+.section05Contents .freePhotoCard{
+   width: 1540px;
+   aspect-ratio: 6.470588235294118/1;
+   border-bottom: 1px solid #333333;
+   padding-top: 430px;
+
+}
+.section05Contents .freePhotoCard h2{
+   font-weight: 500;
+   position: absolute;
+   top: 116px;
+}
+
+.section05Contents .freePhotoCard h2 ~ h2{
+   font-size: 64px;
+   position: absolute;
+   top: 116px;
+   right: 0px;
+   text-align: right;
+   letter-spacing: -2.5%;
+   line-height: 110%;
+}
+
+
+
+.section05Contents .freePhotoCard button {
+   width: 244px;
+   height: 58px;
+   background-color: #36BCF8;
+   color: #ffffff;
+   border-radius: 50px;
+   position: absolute;
+   left: 0px;
+   top: 484px;
+   cursor: pointer;
+}
+
+.section05Contents .freePhotoCard button a{ color: #ffffff;}
+
+.section05Contents .freePhotoCard span{
+   font-size: 1rem;
+   font-weight: 300;
+   text-align: right;
+   position: absolute;
+   right: 0px;
+   top: 484px;
+   color: #333333;
 }
