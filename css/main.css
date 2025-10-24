@@ -946,6 +946,15 @@ body {
 }
 
 /*section05*/
+
+#deco05{
+   position: absolute;
+   left: 0px;
+   top: -84px;
+   z-index: 15;
+}
+
+
 .section05{
    width: 100%;
    height: 1474px;
@@ -1007,4 +1016,24 @@ body {
    right: 0px;
    top: 484px;
    color: #333333;
+}
+/*section06*/
+#dec06{
+   position: absolute;
+   left: 0px;
+   top: -84px;
+   z-index: 15;
+}
+
+.section06{
+   width: 100%;
+   height: 565px;
+   background-color: #FAE100;
+}
+
+.section06Contents{
+   width: 1540px;
+  height: 565px;
+  margin: 0 auto;
+  position: relative;
 }
