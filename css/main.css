@@ -1085,3 +1085,93 @@ body {
    top: 450px;
    color: #333333;
 }
+
+
+
+/*section07*/
+.section07{
+   width: 100%;
+   height: 1130px;
+
+}
+
+
+.section07LeftTop{
+   width: 50%;
+   height: 565px;
+   background-color: #A999F2;
+   float: left;
+}
+
+
+.section07RightTop{
+      width: 50%;
+   height: 565px;
+   background-color: #36BCF8;
+   float: left;
+}
+
+.section07LeftBottom{
+     width: 50%;
+   height: 565px;
+   background-color: #4A65F5;
+   float: left;
+}
+
+.section07RightBottom{
+        width: 50%;
+   height: 565px;
+   background-color: #13E076;
+   float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*section08*/
+.section08{
+   width: 100%;
+   height: fit-content;
+   background-color: #F1F1F5;
+}
+
+.section08Contents{
+   width: 1540px;
+   aspect-ratio: 1.333333333333333/1;
+   background-color: #F1F1F5;
+   margin: 0 auto;
+   position: relative;
+}
+
+
+
+
+
+
+
+
+
+/*footer*/
+.footer{
+   width: 100%;
+   height: fit-content;
+   background-color: #36BCF8;
+}
+
+
+.footerContents{
+   width: 1540px;
+   aspect-ratio: 2.601351351351351/1;
+   margin: 0 auto;
+   background-color: #36BCF8;
+   position: relative;
+}
