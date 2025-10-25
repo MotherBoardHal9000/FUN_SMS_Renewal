@@ -1096,6 +1096,10 @@ body {
 }
 
 
+
+
+
+
 .section07LeftTop{
    width: 50%;
    height: 565px;
@@ -1103,12 +1107,29 @@ body {
    float: left;
 }
 
+.LeftTOPContents{
+   width: 770px;
+   height: 565px;
+   background-color: transparent;
+   float: right;
+   position: relative;
+}
+
+
 
 .section07RightTop{
-      width: 50%;
+   width: 50%;
    height: 565px;
    background-color: #36BCF8;
    float: left;
+}
+
+.RightTOPContents{
+   width: 770px;
+   height: 565px;
+   background-color: transparent;
+   float: left;
+   position: relative;
 }
 
 .section07LeftBottom{
@@ -1118,6 +1139,20 @@ body {
    float: left;
 }
 
+
+.LeftBottomContents{
+   width: 770px;
+   height: 565px;
+   background-color: transparent;
+   float: right;
+   position: relative;
+}
+
+.LeftBottomContents img{
+   position: absolute;
+   top: -105px;
+}
+
 .section07RightBottom{
         width: 50%;
    height: 565px;
@@ -1125,9 +1160,19 @@ body {
    float: left;
 }
 
+.RightBottomContents{
+    width: 770px;
+   height: 565px;
+   background-color: transparent;
+   float: left;
+   position: relative;
+}
 
-
-
+.RightBottomContents img{
+   position: absolute;
+   top: -105px;
+   left:96px;
+}
 
 
 
