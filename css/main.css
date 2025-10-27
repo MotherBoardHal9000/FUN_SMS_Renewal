@@ -375,8 +375,20 @@ body {
    margin-top: 26px;
    margin-left: 28px;}
 
+.slide_Under_Menu02 .snsIMG{
+   width: 90%;
+   height: 60%;
+   margin: 0 auto;
+   display: flex;
+   justify-content: center;
+   align-items:center ;
+   
+}
 
+.snsIMG img{ width: 56px; height: 56px; border-radius: 8px;}
+.slide_Under_Menu02 .snsIMG p{text-align: center; font-size: 0.9rem; margin-top: 5px; color: #A5A6B9;}
 
+.slide_Under_Menu02 .snsIMG p:hover{color: #333333;}
 /*로그인 영역*/
 
 .section01aside{
