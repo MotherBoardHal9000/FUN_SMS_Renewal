@@ -386,6 +386,7 @@ body {
 }
 
 .snsIMG img{ width: 56px; height: 56px; border-radius: 8px;}
+
 .slide_Under_Menu02 .snsIMG p{text-align: center; font-size: 0.9rem; margin-top: 5px; color: #A5A6B9;}
 
 .slide_Under_Menu02 .snsIMG p:hover{color: #333333;}
@@ -1246,4 +1247,19 @@ object-fit: cover;
    margin: 0 auto;
    background-color: #36BCF8;
    position: relative;
+   padding-top: 30px;
 }
+
+.footerContents span{
+    font-size: 0.9rem;
+   font-weight: 100;
+   position: absolute;
+   left: 0px;
+   top: 0;
+   padding: 20px;
+   color: #ffffff;
+
+}
+
+
+.footerContents p{float: right; padding-right: 15px; font-size: 0.9rem; font-weight: 100; color: #ffffff;}
