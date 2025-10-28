@@ -1185,7 +1185,30 @@ object-fit: cover;
    position: relative;
    font-weight: 500;
    font-size: 1.8rem;
+   color: #ffffff;
+   padding-top:90px;
+   padding-left: 84px;
 }
+
+.RightTOPContents img{
+   width: 327px;
+   height: 477px;
+   position: absolute;
+   right: -30px;
+   top: 40px;
+   
+}
+
+
+
+.RightTOPContents button{
+   width: 180px; 
+   height: 58px; 
+   color: #333333; 
+   background-color:#ffffff ; 
+   border-radius: 50px;
+   margin-top: 50px;}
+
 
 .section07LeftBottom{
      width: 50%;
@@ -1220,7 +1243,7 @@ object-fit: cover;
    position: relative;
    width: 311px;
    height: 467px;
-   right: -180px;
+   right: -270px;
    bottom: 90px;
 }
 
