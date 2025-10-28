@@ -33,6 +33,7 @@ body {
    width: 1540px;
    margin: 0 auto;
    color: #333333;
+   z-index: 9989;
 }
 
 
@@ -52,8 +53,9 @@ body {
     border: 3px solid rgba(255, 255, 255, 0.18);
     width: 100%;
     height: fit-content;
-    z-index: 999;
+    z-index: 9989;
     transition: all 0.5s;
+    position: fixed;
 }
 
 #header h1 img {
@@ -140,6 +142,7 @@ body {
    width: 100%;
    height: fit-content;
    background-color: #F1F1F5;
+      padding-top: 44px;
 }
 
 .section01Contents{
@@ -149,6 +152,7 @@ body {
    margin: 0 auto;
    position: relative;
    color: #ffffff;
+   padding-top: 44px;
 }
 
 
@@ -339,7 +343,7 @@ body {
     border: 3px solid rgba(255, 255, 255, 0.18);
     position: absolute;
     left: 0px;
-    bottom: 158px;
+    bottom: 112px;
     border-radius: 24px;
     display: flex;
     justify-content: space-evenly;
@@ -365,7 +369,7 @@ body {
     border: 3px solid rgba(255, 255, 255, 0.18);
     position: absolute;
     right: 3px;
-    bottom: 158px;
+    bottom: 112px;
     border-radius: 24px;
 }
 
