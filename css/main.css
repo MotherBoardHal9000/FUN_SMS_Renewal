@@ -1137,10 +1137,37 @@ object-fit: cover;
    width: 770px;
    height: 565px;
    background-color: transparent;
+   padding-top: 94px;
+   color: #ffffff;
    float: right;
    position: relative;
+   font-weight: 500;
+   font-size: 1.8rem;
 }
 
+.line{
+   width: 80%;
+   height: 1px;
+   background-color: #ffffff;
+   margin-top: 32px;
+}
+
+.LeftTOPContents button{
+   width: 180px; 
+   height: 58px; 
+   color: #333333; 
+   background-color:#ffffff ; 
+   border-radius: 50px;
+   margin-top: 50px;}
+
+
+.LeftTOPContents img{
+   width: 311px;
+   height: 467px;
+   position: absolute;
+   right: 80px;
+   top: 0px;
+}
 
 
 .section07RightTop{
@@ -1156,6 +1183,8 @@ object-fit: cover;
    background-color: transparent;
    float: left;
    position: relative;
+   font-weight: 500;
+   font-size: 1.8rem;
 }
 
 .section07LeftBottom{
@@ -1163,6 +1192,7 @@ object-fit: cover;
    height: 565px;
    background-color: #4A65F5;
    float: left;
+   color: #ffffff;
 }
 
 
@@ -1172,12 +1202,36 @@ object-fit: cover;
    background-color: transparent;
    float: right;
    position: relative;
+   padding-top: 84px;
+   font-size: 1.8rem;
+   font-weight: 500;
+}
+
+
+.LeftBottomContents #blueDeco{
+  position: absolute;
+  width: 133px;
+  height: 125px;
+   top: -100px;
+   left:0px;
 }
 
 .LeftBottomContents img{
    position: absolute;
-   top: -105px;
+   width: 311px;
+   height: 467px;
+   right: 80px;
+   top: 0px;
 }
+
+.LeftBottomContents button{
+   width: 180px; 
+   height: 58px; 
+   color: #333333; 
+   background-color:#ffffff ; 
+   border-radius: 50px;
+   margin-top: 50px;}
+
 
 .section07RightBottom{
         width: 50%;
