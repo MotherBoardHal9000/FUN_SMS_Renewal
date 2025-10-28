@@ -389,7 +389,7 @@ body {
    
 }
 
-.snsIMG img{ width: 56px; height: 56px; border-radius: 8px;}
+.snsIMG img{ width: 42px; height: 42px; border-radius: 8px; margin: 6px;}
 
 .slide_Under_Menu02 .snsIMG p{text-align: center; font-size: 0.9rem; margin-top: 5px; color: #A5A6B9;}
 
