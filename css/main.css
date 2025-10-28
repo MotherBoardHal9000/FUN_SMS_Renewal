@@ -1164,9 +1164,9 @@ object-fit: cover;
 .LeftTOPContents img{
    width: 311px;
    height: 467px;
-   position: absolute;
-   right: 80px;
-   top: 0px;
+   position: relative;
+   right: -180px;
+   top: -180px;
 }
 
 
@@ -1217,11 +1217,11 @@ object-fit: cover;
 }
 
 .LeftBottomContents img{
-   position: absolute;
+   position: relative;
    width: 311px;
    height: 467px;
-   right: 80px;
-   top: 0px;
+   right: -180px;
+   bottom: 90px;
 }
 
 .LeftBottomContents button{
@@ -1244,19 +1244,50 @@ object-fit: cover;
     width: 770px;
    height: 565px;
    background-color: transparent;
+   color: #ffffff;
    float: left;
    position: relative;
+     font-weight: 500;
+   font-size: 1.8rem;
+    padding-top: 44px;
+   padding-left: 102px;
 }
+
+.RightBottomContents #greenDeco{
+   position: absolute;
+  width: 133px;
+  height: 125px;
+   top: -100px;
+   left:84px;
+}
+
+
+.RightBottomContents button{
+   width: 180px; 
+   height: 58px; 
+   color: #333333; 
+   background-color:#ffffff ; 
+   border-radius: 50px;
+   margin-top: 50px;}
+
+
 
 .RightBottomContents img{
-   position: absolute;
-   top: -105px;
-   left:96px;
+  width: 247px;
+   height: 247px;
+   position: relative;
+   right: -180px;
+   top: -90px;
 }
 
 
-
-
+.RightBottomContents img + img{
+    width: 133px;
+   height: 133px;
+   position: relative;
+   right: 180px;
+   top: 170px;
+}
 
 
 
