@@ -1044,6 +1044,18 @@ object-fit: cover;
 }
 
 
+.section05Contents .freePhotoCard img{
+   width: 469px;
+   aspect-ratio: 358px;
+   position: absolute;
+   top: 58px;
+   left: 40%;
+   transform: translateX(-40%);
+   z-index: 10;
+   animation: UpandDown 3s infinite;
+}
+
+
 
 .section05Contents .freePhotoCard button {
    width: 244px;
@@ -1515,4 +1527,3 @@ animation: UpandDown 3s infinite;}
 
 
 .footerContents p{float: right; padding-right: 15px; font-size: 0.9rem; font-weight: 100; color: #ffffff;}
-
