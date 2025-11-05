@@ -4,6 +4,22 @@
 
 
 
+@keyframes UpandDown {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-20px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+
+
 ::-webkit-scrollbar {
    display: none;
 }
@@ -556,20 +572,22 @@ body {
    aspect-ratio: 1/1;
    position: absolute;
    top: -56px;
-   left: 55%;
-   transform: translateX(-55%);
+   left: 35%;
+   transform: translateX(-35%);
    z-index: 10;
+   animation: UpandDown 3s infinite;
 }
 
 .section02Contents .freePhotoCard img + img{
    width: 480px;
    aspect-ratio: 1/1;
    position: absolute;
-   top: 215px;
-   left: 35%;
-   transform: translateX(-35%);
+   top: 95px;
+   left: 25%;
+   transform: translateX(-25%);
    rotate: 35deg;
    z-index: 0;
+   animation: UpandDown 3s infinite;
 }
 
 .section02Contents .freePhotoCard button {
@@ -728,6 +746,7 @@ object-fit: cover;
    left: 50%;
    transform: translateX(-50%);
    z-index: 10;
+
 }
 
 
@@ -874,9 +893,10 @@ object-fit: cover;
    aspect-ratio: 0.6666/1;
    position: absolute;
    top: -16px;
-   left: 55%;
-   transform: translateX(-55%);
+   left: 39%;
+   transform: translateX(-39%);
    z-index: 10;
+   animation: UpandDown 3s infinite;
 }
 
 
@@ -1071,6 +1091,7 @@ object-fit: cover;
 }
 
 
+
 .BEE{  width: 350px;
    aspect-ratio: 1/1;
    position: absolute;
@@ -1079,7 +1100,8 @@ object-fit: cover;
    transform: translateX(-55%);
    z-index: 10;
 opacity: 0;
-transition: all 1s;}
+transition: all 1s;
+}
 
 
 
