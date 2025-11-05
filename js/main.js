@@ -118,3 +118,47 @@ document.getElementById('img_Left03').addEventListener("click", function () {
    aboutPicture = aboutPicture -= 1;
   }
 });
+
+const BEE =  document.querySelector('.BEE');
+const BEEappearTiming = 5053;
+
+
+window.addEventListener("scroll", function (addEventListener) {
+  if (window.scrollY > BEEappearTiming) {
+    BEE.style.opacity = 1;
+  } 
+
+  
+});
+
+
+
+
+
+const funSMSmobile =  document.querySelector('.funSMSmobileApp');
+const funSMSAppearTiming = 6915;
+
+
+window.addEventListener("scroll", function (addEventListener) {
+  console.log(window.scrollY);
+  if (window.scrollY > funSMSAppearTiming) {
+     funSMSmobile.style.opacity = 1;
+  } 
+
+  
+});
+
+
+//
+//
+const musicIcon = document.querySelector('.musicIcon');
+const musicIconAppearTiming = 7765;
+
+window.addEventListener("scroll", function (addEventListener) {
+  console.log(window.scrollY);
+  if (window.scrollY > funSMSAppearTiming) {
+     musicIcon.style.opacity = 1;
+  } 
+
+  
+});

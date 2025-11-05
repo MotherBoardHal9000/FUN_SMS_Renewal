@@ -25,9 +25,6 @@ body {
    -ms-overflow-style: none;
 }
 
-::-webkit-scrollbar {
-   display: none;
-}
 
 .inner {
    width: 1540px;
@@ -1070,13 +1067,15 @@ object-fit: cover;
 }
 
 
-.section06Contents .freePhotoCard img{  width: 350px;
+.BEE{  width: 350px;
    aspect-ratio: 1/1;
    position: absolute;
    top: 46px;
    left: 55%;
    transform: translateX(-55%);
-   z-index: 10;}
+   z-index: 10;
+opacity: 0;
+transition: all 1s;}
 
 
 
@@ -1379,13 +1378,15 @@ object-fit: cover;
 }
 
 
-.section08Contents .freePhotoCard img { 
+.funSMSmobileApp { 
    width: 949px; 
    height: 1018px;
    position: absolute;
    left: 65%;
    top: 24px;
-   transform: translateX(-65%);}
+   transform: translateX(-65%);
+   transition: all 1s;
+opacity: 0;}
 
 
 
@@ -1397,6 +1398,10 @@ object-fit: cover;
    top: 595px;
    transform: translateX(-66%);}
 
+
+
+
+
    #talkBalloon{
    width: 341px;
    aspect-ratio: 0.686116700201207/1;
@@ -1407,15 +1412,15 @@ object-fit: cover;
    z-index: 10;
    }
 
-   #musicIcon{
-   width: 470px;
-   height: 470px;
+ .musicIcon{
+   width: 310px;
+   height: 310px;
    position: absolute;
    left: 80%;
-   top: 64%;
-   transform: translateX(-80%),translateY(-64%);
-   z-index: 12;
-
+   top: 70%;
+   transform:translateX(-70%), translateY(-80%);
+   transition: all 2s;
+   opacity: 0;
    }
 
 
