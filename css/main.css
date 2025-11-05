@@ -1096,11 +1096,12 @@ object-fit: cover;
    aspect-ratio: 1/1;
    position: absolute;
    top: 46px;
-   left: 55%;
-   transform: translateX(-55%);
+   left: 42%;
+   transform: translateX(-42%);
    z-index: 10;
 opacity: 0;
 transition: all 1s;
+animation: UpandDown 3s infinite;
 }
 
 
@@ -1420,9 +1421,10 @@ opacity: 0;}
    width: 205px; 
    height: 205px;
    position: absolute;
-   left: 66%;
+   left: 59%;
    top: 595px;
-   transform: translateX(-66%);}
+   transform: translateX(-59%);
+animation: UpandDown 3s infinite;}
 
 
 
@@ -1446,7 +1448,7 @@ opacity: 0;}
    top: 70%;
    transform:translateX(-70%), translateY(-80%);
    transition: all 2s;
-   opacity: 0;
+   opacity: 0;animation: UpandDown 3s infinite;
    }
 
 
@@ -1513,5 +1515,4 @@ opacity: 0;}
 
 
 .footerContents p{float: right; padding-right: 15px; font-size: 0.9rem; font-weight: 100; color: #ffffff;}
-
 
