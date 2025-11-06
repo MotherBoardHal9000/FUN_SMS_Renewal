@@ -8,6 +8,9 @@ html {
 ::-webkit-scrollbar {
    display: none;
 }
+ :root { /*Size*/
+  --size-max-width: 1540px;
+}
 
 
 * { 

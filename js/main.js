@@ -162,3 +162,17 @@ window.addEventListener("scroll", function (addEventListener) {
 
   
 });
+
+
+//고객센터
+let call = true;
+document.getElementById('callCenter').addEventListener('click',function(){
+if (call == true){document.getElementById('callCenterMenu').style.opacity = 1; call=false;}
+
+else if (call == false){document.getElementById('callCenterMenu').style.opacity = 0; call=true;}
+
+}
+ 
+);
+
+ 
