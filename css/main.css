@@ -1527,3 +1527,21 @@ animation: UpandDown 3s infinite;}
 
 
 .footerContents p{float: right; padding-right: 15px; font-size: 0.9rem; font-weight: 100; color: #ffffff;}
+
+
+#logoWhite{
+   width: 408px;
+   height: 68px;
+   position: relative;
+   bottom: -448px;
+}
+
+#copyright{
+   width: fit-content;
+   height: fit-content;
+   position: relative;
+   top: 384px;
+   float: right;
+   margin-left: 900px;
+   
+}
