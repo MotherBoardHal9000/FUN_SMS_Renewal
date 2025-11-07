@@ -360,9 +360,18 @@ body {
    width: 316px;
    aspect-ratio: 1.504761904761905/1;
    position: absolute;
-   right: 325px;
-   bottom: 203px;
+   right: 365px;
+   bottom: 183px;
    background: transparent;
+}
+
+.swiper-wrapper #slide03 img + img{
+   width: 334px;
+   height: 334px;
+   position: absolute;
+   right: 215px;
+    bottom: 120px;
+     background: transparent;
 }
 
 
