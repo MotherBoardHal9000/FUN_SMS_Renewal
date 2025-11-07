@@ -46,12 +46,7 @@ body {
 }
 
 
-#wrap{
-   width: 100%;
-   height: 100%;
-   position: relative;
 
-}
 
 .inner {
    width: 1540px;
@@ -865,6 +860,10 @@ object-fit: cover;
    transition: all 0.9s;
 }
 
+
+
+
+
 .slideBtn02{
    width: 80px;
    aspect-ratio: 2.0370/1;
@@ -1014,6 +1013,17 @@ object-fit: cover;
    margin-right: 24px;
    transition: all 0.9s;
 }
+
+
+.section04ContentsCarousell-swiper-slide .coupon{
+   width: 354px;
+   height: 157px;
+   position: relative;
+   right: -25px;
+   bottom: -292px;
+}
+
+
 
 .slideBtn03{
    width: 80px;
