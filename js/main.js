@@ -72,20 +72,20 @@ let fromPicture = 1;
 
   document.getElementById('img_Right02').addEventListener("click", function () {
   if (fromPicture == 1) {
-    document.querySelector(".section03ContentsCarousell-swiper-wrapper").style.transform = "translateX(-374px)";
+    document.querySelector(".section03ContentsCarousell-swiper-wrapper").style.transform = "translateX(-784px)";
    fromPicture += 1;
   } else if (fromPicture== 2) {
-    document.querySelector(".section03ContentsCarousell-swiper-wrapper").style.transform = "translateX(-748px)";
+    document.querySelector(".section03ContentsCarousell-swiper-wrapper").style.transform = "translateX(-1568px)";
     fromPicture += 1;
   }
   else if (fromPicture == 3) {
-    document.querySelector(".section03ContentsCarousell-swiper-wrapper").style.transform = "translateX(-1128px)";
+    document.querySelector(".section03ContentsCarousell-swiper-wrapper").style.transform = "translateX(-784px)";
     fromPicture += 1;
   }
 });
 document.getElementById('img_Left02').addEventListener("click", function () {
   if (fromPicture == 4) {
-    document.querySelector(".section03ContentsCarousell-swiper-wrapper").style.transform = "translateX(-374px)";
+    document.querySelector(".section03ContentsCarousell-swiper-wrapper").style.transform = "translateX(-784px)";
    fromPicture -= 1;
   } else if (fromPicture == 3) {
     document.querySelector(".section03ContentsCarousell-swiper-wrapper").style.transform = "translateX(0px)";
