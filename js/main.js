@@ -132,6 +132,23 @@ window.addEventListener("scroll", function (addEventListener) {
 });
 
 
+const dashBoard =  document.querySelector('.dashBoard');
+const dashBoardAppearTiming = 3566;
+
+
+window.addEventListener("scroll", function (addEventListener) {
+  console.log(window.scrollY);
+  if (window.scrollY > dashBoardAppearTiming) {
+     dashBoard.style.opacity = 1;
+  } 
+
+  
+});
+
+
+
+
+
 
 
 

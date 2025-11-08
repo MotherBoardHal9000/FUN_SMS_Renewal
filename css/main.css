@@ -1109,15 +1109,34 @@ object-fit: cover;
 }
 
 
+.section05Contents  h3{
+   font-weight: 600;
+   font-size: 2.4rem;
+   position: relative;
+   top:166px;
+}
+
+
 .section05Contents .freePhotoCard img{
    width: 469px;
    aspect-ratio: 358px;
    position: absolute;
    top: 58px;
-   left: 40%;
-   transform: translateX(-40%);
+   left: 44%;
+   transform: translateX(-44%);
    z-index: 10;
    animation: UpandDown 3s infinite;
+}
+
+
+.section05Contents .dashBoard{
+   width: 766px;
+   height: 692px;
+   float: right;
+   margin-top: 174px;
+   border-radius: 21px;
+   opacity: 0;
+   transition: all 0.8s;
 }
 
 
