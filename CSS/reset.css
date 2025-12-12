@@ -1,15 +1,22 @@
 @charset "utf-8";
 
 html {
-   font-size: 62.5%;
+   font-size: 15px;
    scroll-behavior: smooth;
 }
+
+::-webkit-scrollbar {
+   display: none;
+}
+ :root { /*Size*/
+  --size-max-width: 1540px;
+}
+
 
 * { 
    margin: 0;
    padding: 0;
    box-sizing: border-box;
-   letter-spacing: -2.5%;
 }
 
 ol, ul { 
@@ -18,7 +25,7 @@ ol, ul {
 
 a { 
    text-decoration: none;
-   color: #333333;
+   color: #000;
 }
 
 select, input, textarea, fieldset { 
@@ -49,13 +56,4 @@ b, strong, h1, h2, h3, h4, h5, h6 {
 button, input {
    border: none;
    background: transparent;
-}
-
- :root { /*Size*/
-  --size-max-width: 1920px;
-}
-
-
-::-webkit-scrollbar {
-   display: none;
 }
