@@ -98,7 +98,7 @@ body {
 
 /*header*/
 
-#header{
+.header{
     top: 0;
     left: 0;
      background: linear-gradient(
@@ -116,26 +116,26 @@ body {
     position: fixed;
 }
 
-#header h1 img {
+.header h1 img {
    width: 158px;
    aspect-ratio:4.157894736842105/1;
 }
 
 
 
-#header .inner .blog img{ width: 30px; height: 30px; }
-#header .inner .blog {display: flex; justify-content: space-between;}
+.header .inner .blog img{ width: 30px; height: 30px; }
+.header .inner .blog {display: flex; justify-content: space-between;}
 
 
-#header.active .gnb > li > a {
+.header.active .gnb > li > a {
    color: var(--black);
 }
 
-#header.active .util .lang li a {
+.header.active .util .lang li a {
    color: var(--black);
 }
 
-#header .inner {
+.header .inner {
    width:1540px;
    aspect-ratio: 17.90697674418605/1;
    display: flex;
@@ -146,23 +146,23 @@ body {
    color: #333333;
 }
 
-#header nav {
+.header nav {
    width: 732px;
    aspect-ratio:31.90909090909091/1;
    margin: 0 auto;
 }
 
-#header .gnb {
+.header .gnb {
    display: flex;
 }
 
-#header .gnb > li {
+.header .gnb > li {
    width: calc(100% / 7);
    position: relative;
    padding: 10px;
 }
 
-#header .gnb > li::before {
+.header .gnb > li::before {
    content: '';
    display: block;
    width: 0;
@@ -175,11 +175,11 @@ body {
    transition: all 0.5s;
 }
 
-#header .gnb > li:hover::before {
+.header .gnb > li:hover::before {
    width: 100%;
 }
 
-#header .gnb > li > a {
+.header .gnb > li > a {
    display: block;
    width: 100%;
    padding: 2px;
@@ -190,7 +190,7 @@ body {
    transition: all 0.5s;
 }
 
-#header .gnb > li:hover > a {
+.header .gnb > li:hover > a {
    color: var(--orange);
 }
 
