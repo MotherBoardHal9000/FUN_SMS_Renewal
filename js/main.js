@@ -18,6 +18,48 @@
     });
 
 
+
+
+
+const header = document.querySelector('.header');
+
+const logoImg = document.querySelector("header h1 img");
+
+
+// 마우스 올렸을 때
+header.addEventListener("mouseenter", function () {
+  header.style.background = "#fff";
+
+
+
+  logoImg.src = "IMG/COMMON/LogoColored.svg";
+
+
+});
+
+// 마우스 벗어났을 때
+header.addEventListener("mouseleave", function () {
+  header.style.background = "transparent";
+
+
+
+
+  logoImg.src = "IMG/COMMON/Logo.svg";
+});
+
+header.addEventListener("mouseenter", () => {
+  header.classList.add("active");
+});
+
+header.addEventListener("mouseleave", () => {
+  header.classList.remove("active");
+});
+
+
+
+
+
+
     //아이디 비번창 공백시 알림
 document.getElementById('로그인버튼').addEventListener('click',function(){if
 (document.getElementById('id').value == ''){alert('아이디를 입력해 주세요')} 
@@ -31,33 +73,38 @@ document.getElementById('로그인버튼').addEventListener('click',function(){
 
 //section02Carousel
 let myAnimation = window.requestAnimationFrame(onAnimate);
-let nowPicture = 1;
 
 
 
-  document.getElementById('img_Right').addEventListener("click", function () {
-  if (nowPicture == 1) {
-    document.querySelector(".section02ContentsCarousell-swiper-wrapper").style.transform = "translateX(-374px)";
-    nowPicture += 1;
-  } else if (nowPicture == 2) {
-    document.querySelector(".section02ContentsCarousell-swiper-wrapper").style.transform = "translateX(-748px)";
-    nowPicture += 1;
-  }
-  else if (nowPicture == 3) {
-    document.querySelector(".section02ContentsCarousell-swiper-wrapper").style.transform = "translateX(-1128px)";
-    nowPicture += 1;
-  }
-});
-document.getElementById('img_Left').addEventListener("click", function () {
-  if (nowPicture == 4) {
-    document.querySelector(".section02ContentsCarousell-swiper-wrapper").style.transform = "translateX(-374px)";
-    nowPicture -= 1;
-  } else if (nowPicture == 3) {
-    document.querySelector(".section02ContentsCarousell-swiper-wrapper").style.transform = "translateX(0px)";
-    nowPicture = nowPicture -= 1;
+const wrapper = document.querySelector(".section02ContentsCarousell-swiper-wrapper");
+const btnRight = document.getElementById("img_Right");
+const btnLeft = document.getElementById("img_Left");
+
+const slideWidth = 374;   // 한 칸 너비
+const maxIndex = 4;       // 총 이미지 개수
+let nowPicture = 1;       // 시작 인덱스 (1부터)
+
+// 위치 이동 함수
+function moveSlide() {
+  const moveX = -slideWidth * (nowPicture - 1);
+  wrapper.style.transform = `translateX(${moveX}px)`;
+}
+
+// 오른쪽 버튼
+btnRight.addEventListener("click", () => {
+  if (nowPicture < maxIndex) {
+    nowPicture++;
+    moveSlide();
   }
 });
 
+// 왼쪽 버튼
+btnLeft.addEventListener("click", () => {
+  if (nowPicture > 1) {
+    nowPicture--;
+    moveSlide();
+  }
+});
 
 window.addEventListener("click",onAnimate);
 
@@ -192,4 +239,4 @@ else if (call == false){document.getElementById('callCenterMenu').style.opacity 
  
 );
 
- 
+  
