@@ -32,7 +32,7 @@ header.addEventListener("mouseenter", function () {
 
 
 
-  logoImg.src = "IMG/COMMON/LogoColored.svg";
+  logoImg.src = "img/common/LogoColored.svg";
 
 
 });
@@ -44,7 +44,7 @@ header.addEventListener("mouseleave", function () {
 
 
 
-  logoImg.src = "IMG/COMMON/Logo.svg";
+  logoImg.src = "img/common/Logo.svg";
 });
 
 header.addEventListener("mouseenter", () => {
@@ -238,5 +238,6 @@ else if (call == false){document.getElementById('callCenterMenu').style.opacity 
 }
  
 );
+
 
  
