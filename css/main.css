@@ -1139,16 +1139,15 @@ object-fit: cover;
 }
 
 
-.section05Contents .dashBoard{
-   width: 766px;
-   height: 692px;
-   float: right;
-   margin-top: 174px;
-   border-radius: 21px;
-   opacity: 0;
-   transition: all 0.8s;
+.section05Contents .dashBoard {
+  width: 1000px;
+  height: 692px;
+  float: right;
+  margin-top: 174px;
+  border-radius: 21px;
+  opacity: 0;
+  transition: all 0.8s;
 }
-
 
 
 .section05Contents .freePhotoCard button {
