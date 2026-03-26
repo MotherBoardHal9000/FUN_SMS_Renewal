@@ -579,7 +579,7 @@ body {
 
 .section02Contents {
   width: 1540px;
-  height: 950px;
+  height: 900px;
   margin: 0 auto;
   position: relative;
 }
@@ -660,7 +660,7 @@ body {
   width: 1540px;
   aspect-ratio: 3.2083/1;
   position: absolute;
-  bottom: 0px;
+  bottom: 25px;
   transition: all 1s;
   border-radius: 21px;
   overflow-x: hidden;
