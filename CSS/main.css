@@ -709,7 +709,7 @@ body {
   width: 80px;
   aspect-ratio: 2.037/1;
   position: absolute;
-  top: 700px;
+  top: 632px;
   left: -2.5%;
   transform: translateX(-2.5%);
   z-index: 16;
@@ -717,6 +717,7 @@ body {
   justify-content: space-between;
   background: transparent;
 }
+
 
 .slideBtn button {
   width: 40px;
